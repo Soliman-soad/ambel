@@ -99,6 +99,9 @@ const Sidebar = () => {
 
     return (
     <div className="h-full  py-5 w-[280px] bg-[#DFE9DD] text-gray-800">
+
+
+        {/* this is the logo section */}
       <div className="border-b border-[#5B5B5B] px-[15px] pb-3">
         <img
           src={logo}
@@ -107,6 +110,7 @@ const Sidebar = () => {
         />        
       </div>
 
+        {/* this is menu section */}
       <div className="pt-5 px-[15px]">
         <ul className="pt-2 pb-4 space-y-1 text-sm">
           {
