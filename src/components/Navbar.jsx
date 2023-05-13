@@ -9,7 +9,7 @@ const Navbar = () => {
 
         {/* title section */}
       <div>
-        <h1 className="text-lg text-[#424242] font-medium">Ambel Dashboard</h1>
+        <h1 className="text-[28px] text-[#424242] font-medium">Ambel Dashboard</h1>
       </div>
 
       <div className="flex items-center">

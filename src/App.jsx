@@ -2,14 +2,16 @@ import "./App.css";
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import SearchBar from "./components/SearchBar";
+import DataContainer from "./components/DataContainer/DataContainer";
 
 function App() {
   return (
-    <div className="flex w-[1440px]">
+    <div className="flex w-[1440px] text-[#191919]">
       <Sidebar />
       <div>
         <Navbar />
         <SearchBar/>
+        <DataContainer/>
       </div>
     </div>
   );
