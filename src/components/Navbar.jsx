@@ -1,6 +1,6 @@
 import { ReactComponent as Sun } from "../assets/sun.svg";
 import { ReactComponent as Dark } from "../assets/Dark.svg";
-import { ReactComponent as Natification } from "../assets/Notification.svg";
+import { ReactComponent as Notification } from "../assets/Notification.svg";
 import person from "../assets/person.png";
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
         </label>
 
         {/* notification icon */}
-        <Natification className="inline w-[26px] h-[26px] mr-[26px] ml-[29px]" />
+        <Notification className="inline w-[26px] h-[26px] mr-[26px] ml-[29px]" />
 
         {/* user image */}
         <img
