@@ -98,11 +98,11 @@ const Sidebar = () => {
     ]
 
     return (
-    <div className="h-full  py-5 w-[280px] bg-[#DFE9DD] text-gray-800">
+    <div className="h-full py-5 w-[280px] bg-[#DFE9DD] text-gray-800">
 
 
         {/* this is the logo section */}
-      <div className="border-b border-[#5B5B5B] px-[15px] pb-3">
+      <div className="border-b-[0.5px] border-[#5B5B5B] px-[15px] pb-3">
         <img
           src={logo}
           alt="logo"

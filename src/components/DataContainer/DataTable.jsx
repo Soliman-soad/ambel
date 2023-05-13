@@ -69,7 +69,7 @@ const DataTable = () => {
     },
   ];
   return (
-    <div className="bg-white w-[1106px] mx-auto mt-[27px] rounded-lg">
+    <div className="bg-white w-[1106px] mx-auto rounded-lg">
       {/* title  */}
       <div className="flex items-center justify-between px-5 py-4">
         <div className="flex items-center">
