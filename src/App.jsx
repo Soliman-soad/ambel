@@ -6,7 +6,7 @@ import DataContainer from "./components/DataContainer/DataContainer";
 
 function App() {
   return (
-    <div className="flex w-[1440px] text-[#191919] mx-auto overflow-hidden">
+    <div className="flex w-[1440px] text-[#191919] mx-auto overflow-hidden border-black border">
       <div>
       <Sidebar />
       </div>
